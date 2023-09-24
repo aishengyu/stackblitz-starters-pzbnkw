@@ -178,7 +178,7 @@ export default function Paperbase() {
     <ThemeProvider theme={theme}>
       <Box sx={{ display: 'flex', minHeight: '100vh' }}>
         <CssBaseline />
-        {
+        {/* {
           <Box
             component="nav"
             sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
@@ -196,7 +196,7 @@ export default function Paperbase() {
               sx={{ display: { sm: 'block', xs: 'none' } }}
             />
           </Box>
-        }
+        } */}
         <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
           {<Header onDrawerToggle={handleDrawerToggle} />}
           <Box

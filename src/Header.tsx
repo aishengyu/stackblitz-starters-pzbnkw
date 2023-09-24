@@ -79,7 +79,7 @@ export default function Header(props: HeaderProps) {
         elevation={0}
         sx={{ zIndex: 0 }}
       >
-        <Toolbar>
+        {/* <Toolbar>
           <Grid container alignItems="center" spacing={1}>
             <Grid item xs>
               <Typography color="inherit" variant="h5" component="h1">
@@ -104,7 +104,7 @@ export default function Header(props: HeaderProps) {
               </Tooltip>
             </Grid>
           </Grid>
-        </Toolbar>
+        </Toolbar> */}
       </AppBar>
       <AppBar
         component="div"

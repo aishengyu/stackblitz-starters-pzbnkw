@@ -25,9 +25,8 @@ const categories = [
       {
         id: 'Authentication③-1',
         icon: <PeopleIcon />,
-        
       },
-      { id: 'Database③-2', icon: <DnsRoundedIcon /> ,active: true,},
+      { id: 'Database③-2', icon: <DnsRoundedIcon />, active: true },
       { id: 'Storage③-3', icon: <PermMediaOutlinedIcon /> },
       { id: 'Hosting③-4', icon: <PublicIcon /> },
       { id: 'Functions③-5', icon: <SettingsEthernetIcon /> },
